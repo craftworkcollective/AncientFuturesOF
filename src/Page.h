@@ -59,7 +59,7 @@ class Page {
     glm::vec2 titlePos{ 38.0f, 100.0f };
     glm::vec2 artistPos{ 38.0f, 230.0f };
     glm::vec2 descriptionPos{ 550.0f, 350.0f };
-    glm::vec2 promptPos{ 900.0f, 550.0f };
+    glm::vec2 promptPos{ 62.0f, 200.0f };
     glm::vec2 langPos{ 38.0f, 915.0f };
     glm::vec2 countDownPos{ 38.0f, 550.0f };   
     glm::vec2 storedPos{ 550.0f, 250.0f };
@@ -67,9 +67,9 @@ class Page {
     float mTitleSize{ 100.0f };
     float mRegTextSize{ 30.0f };
     float mDescriptionTextSize{ 45 };
-    float mPromptTextSize{ 100.0f };
+    float mPromptTextSize{ 50.0f };
     float mLangTextSize{ 20.0f };
-    float mColWidth{ 1500.0f };
+    float mColWidth{ 900.0f };
     float mColWidthDescription{ 800.0f };
 
     ofImage bg;

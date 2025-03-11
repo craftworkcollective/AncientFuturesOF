@@ -152,7 +152,7 @@ void Page::drawText( string txt )
         55,                                                  // max number of lines
         true,                                                // get the final text formatting (by adding \n's) in the supplied string
         &wordsWereCropped,                                   // this is set to true if the box was too small to fit all of the text
-        false                                                // centered
+        true                                                // centered
     );
 }
 
