@@ -40,9 +40,6 @@
     <ClCompile Include="src\Recorder\Recorder.cpp">
       <Filter>src\Recorder</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\addons\ofxFFmpegRecorder\src\ofxFFmpegRecorder.cpp">
-      <Filter>addons\ofxFFmpegRecorder\src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\addons\ofxFontStash\src\ofxFontStash.cpp">
       <Filter>addons\ofxFontStash\src</Filter>
     </ClCompile>
@@ -144,12 +141,6 @@
     <Filter Include="addons">
       <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
     </Filter>
-    <Filter Include="addons\ofxFFmpegRecorder">
-      <UniqueIdentifier>{A2799C55-44A2-97BE-6A0A-A9E9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxFFmpegRecorder\src">
-      <UniqueIdentifier>{FD5F26E3-3861-B454-970F-342A}</UniqueIdentifier>
-    </Filter>
     <Filter Include="addons\ofxFontStash">
       <UniqueIdentifier>{52833EC4-B632-6FCA-91CC-4AE6}</UniqueIdentifier>
     </Filter>
@@ -250,9 +241,6 @@
     </ClInclude>
     <ClInclude Include="src\Recorder\Recorder.h">
       <Filter>src\Recorder</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxFFmpegRecorder\src\ofxFFmpegRecorder.h">
-      <Filter>addons\ofxFFmpegRecorder\src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxFontStash\src\ofxFontStash.h">
       <Filter>addons\ofxFontStash\src</Filter>
@@ -380,8 +368,5 @@
     <ClInclude Include="..\..\..\addons\ofxTimeMeasurements\src\ofxTimeMeasurementsScoped.h">
       <Filter>addons\ofxTimeMeasurements\src</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="icon.rc" />
   </ItemGroup>
 </Project>
