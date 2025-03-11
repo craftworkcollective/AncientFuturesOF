@@ -518,7 +518,7 @@ void AppManager::updateAmbientState()
     }
     else {
         if( configs().one().getUseArduino() )
-            arduino.sendSentimentMsg( "255,95,50,255,255,255," );
+            arduino.sendSentimentMsg( "255,95,50,100,100,100," );
     }
     startAmbientTime = ofGetElapsedTimef();
 }
@@ -615,7 +615,7 @@ void AppManager::onKeyPressed( ofKeyEventArgs &e )
         break;
     case '3':
         // ambient
-        arduino.sendSentimentMsg( "255,95,50,255,255,255" );
+        arduino.sendSentimentMsg( "255,95,50,100,100,100" );
         break;
     case 'm': {
 
